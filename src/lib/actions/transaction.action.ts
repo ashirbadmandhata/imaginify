@@ -13,7 +13,7 @@ export async function checkoutCredits(transaction: CheckoutTransactionParams) {
   const amount = Number(transaction.amount) * 100; // Converting amount to cents
 
 // Convert amount from USD to INR using the exchange rate (1 USD = 74.26 INR, for example)
-const amountInINR = Math.round(amount * 74.26);
+const amountInINR = Math.round(amount * 1);
 
   const session = await stripe.checkout.sessions.create({
     line_items: [
