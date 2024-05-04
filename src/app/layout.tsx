@@ -13,7 +13,7 @@ const IBMPlex = IBM_Plex_Sans({
 
 export const metadata: Metadata = {
   title: "FixifyX",
-  description: "AI-powered image generator",
+  description: "AI-powered image generator(Designed By Ashirbad Mandhata)",
 };
 
 export default function RootLayout({
